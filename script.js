@@ -6,7 +6,7 @@ const rateAgain = document.getElementById("rate-again")
 const rating = document.getElementById("rating")
 
 
-submitButton.addEventListener("click", () => {
+submitButton.addEventListener("click", (event) => {
 event.preventDefault()
 thanksContainer.classList.remove("hidden")
 mainContainer.style.display = "none"

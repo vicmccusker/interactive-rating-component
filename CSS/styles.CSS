@@ -7,11 +7,10 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-  }
-
-
+}
 
 .container {
+  
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -23,36 +22,32 @@ body {
 }
 
 .flex-item-1 {
+
     background: #C17C74;
     padding: 20px 20px 40px 20px;
     width: 367.94px;
     margin-top: 10px;
     color: azure;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
     border-radius: 20px; 
-  }
+}
 
 
 .smile {
+
     justify-content: center;
     text-align: center;
     padding: 5px;
     font-size: 2rem;
     
-  }  
+}  
 
-  .flex-item-2 {
-    display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: nowrap;
-    justify-content: center;
-    text-align: center;
-    margin: auto;
-    padding: auto;
-    
-  }
+.flex-item-2 {
+
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+
+}
 
 
 h1 {
@@ -73,11 +68,13 @@ p {
   font-size: 15px;
   text-align: center;
   margin-bottom: 20px;
+
 }
 
 
 
 .flex-item-2 button {
+  
     width: 100px;
     height: 55px;
     border-style:none;
@@ -100,10 +97,8 @@ p {
   color: #94524A;
 }
 
-
-
-
 .btn-submit {
+
     background-color: #94524A;
     justify-content: left;
     text-align: center;
@@ -119,18 +114,14 @@ p {
 
 
 .btn-submit:hover {
+
   background-color: #2A3D45;
-    text-align: center;
-    color: #ffffff;
-    display: center;
-    font-size: 15px;
-    border-radius: 20px;
-    margin-top: 30px;
-    width: 100%;
-    border: 0px;
+  color: #ffffff;
+
 }
 
 .btn-submit-rate-again {
+
   align-self: flex-start;
   background-color: #94524A;
   border: none;
@@ -142,24 +133,20 @@ p {
   border-radius: 10px;
   width: 7rem;
 
-
 }
 
 .btn-submit-rate-again:hover {
-  align-self: flex-start;
+
   background-color: #ffffff;
-  text-align: center;
   color: #262e39;
-  font-size: 15px;
-  padding: 5px 4px 4px 4px;
-  margin-bottom: 30px;
-  border-radius: 10px;
-  width: 7rem;
-  border: 0px;
+
 }
 
+
 .disabled {
+
     cursor: not-allowed;
+    
 }
 
 
@@ -171,6 +158,7 @@ p {
 
 
 .thank-you {
+
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -187,7 +175,9 @@ p {
 
 
 .hidden {
+
 display: none;
+
 }
 
 
